@@ -8,4 +8,7 @@ function init() {
   canvas.width=100;
   canvas.height=100;
   document.getElementById("root").appendChild(canvas);
+  div = document.createElement("div");
+  div.innerHTML="Hi";
+    document.getElementById("root").appendChild(div);
 }
