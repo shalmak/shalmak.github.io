@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    myFunction();
+    init();
 });
 
-console.log("outer here");
-
-function myFunction() {
-  document.getElementById("root").innerHTML = "<p>Paragraph changed.</p>";
-  console.log("here");
+function init() {
+  canvas = document.createElement("canvas");
+  canvas.id="canvas";
+  canvas.width=100;
+  canvas.height=100;
+  document.getElementById("root").appendChild(canvas);
 }
