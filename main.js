@@ -4,4 +4,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function myFunction() {
   document.getElementById("root").innerHTML = "<p>Paragraph changed.</p>";
+  console.log("here");
 }
