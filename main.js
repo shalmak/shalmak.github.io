@@ -3,12 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function init() {
-  canvas = document.createElement("canvas");
-  canvas.id="canvas";
-  canvas.width=100;
-  canvas.height=100;
-  document.getElementById("root").appendChild(canvas);
-  div = document.createElement("div");
-  div.innerHTML="Hi";
-    document.getElementById("root").appendChild(div);
+    canvas = document.createElement("canvas");
+    canvas.id="canvas";
+    canvas.width=100;
+    canvas.height=100;
+    canvas.style="border:1px solid #000000;";
+    document.getElementById("root").appendChild(canvas);
 }
